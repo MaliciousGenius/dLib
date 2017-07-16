@@ -1,6 +1,6 @@
 package documents
 
-type PostDocument struct {
+type EssenceDocument struct {
 	Id              string `bson:"_id,omitempty"`
 	Title           string
 	ContentHtml     string
