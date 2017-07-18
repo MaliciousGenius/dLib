@@ -1,10 +1,10 @@
 package models
 
 type Essence struct {
-	id      string
-	name    string
-	content string
-	time    string
+	Id      string
+	Name    string
+	Content string
+	Time    string
 }
 
 func NewEssence(id, name, content, time string) *Essence {

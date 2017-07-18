@@ -1,8 +1,8 @@
 package documents
 
 type EssenceDocument struct {
-	id      string `bson:"_id,omitempty"`
-	name    string
-	content string
-	time    string
+	Id      string `bson:"_id,omitempty"`
+	Name    string
+	Content string
+	Time    string
 }
