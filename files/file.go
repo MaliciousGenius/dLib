@@ -1,7 +1,8 @@
 package files
 
 type File struct {
+	Count   int
 	Name    string
-	Content []byte
+	Size    int64
 }
 
